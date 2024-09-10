@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Quiz Game
+      <img src="images.png" alt="quiz">
+    </h1>
+    <h2>Choose The Right Answer</h2>
+    <div class="container">
+      <div class="questions">
+
+        <div class="ques">
+         <div class="question" id="ques1">
+          <p>Q1. Which is the tallest mountain in the world?</p>
+          </div>
+          <ol>
+              <li class="option color1" id="Mt.Fuji">Mt.Fuji</li>
+              <li class="option color1" id="Mt.Everest">Mt.Everest</li>
+              <li class="option color1" id="K2">K2</li>
+            </ol>
+        </div>
+
+        <div class="ques">
+            <div class="question" id="ques2">
+          <p>Q2. What country has the highest life expectancy?</p>
+          </div>
+          <ol>
+            <li class="option color2" id="Hong-Kong">Hong Kong</li>
+            <li class="option color2" id="India">India</li>
+            <li class="option color2" id="NewZealand">NewZealand</li>
+          </ol>
+        </div>
+
+        <div class="ques">
+            <div class="question" id="ques3">
+          <p>Q3. What is the world's fastest bird?</p>
+          </div>
+          <ol>
+            <li class="option color3" id="Golden-Eagle">Golden Eagle</li>
+            <li class="option color3" id="Peregrine-Falcon">Peregrine Falcon</li>
+            <li class="option color3" id="Saker-Falcon">Saker Falcon</li>
+          </ol>
+        </div>
+
+        <div class="ques">
+            <div class="question" id="ques4">
+          <p>Q4. Which country is considered the birthplace of cricket?</p>
+          </div>
+          <ol>
+            <li class="option color4" id="NewZealand">NewZealand</li>
+            <li class="option color4" id="Australia">Australia</li>
+            <li class="option color4" id="England">England</li>
+          </ol>
+        </div>
+
+        <div class="ques">
+            <div class="question" id="ques5">
+          <p>Q5. Which is the largest forest on Earth?</p>
+          </div>
+          <ol>
+            <li class="option color5" id="Taiga-Forest">Taiga Forest</li>
+            <li class="option color5" id="Amazon-Forest">Amazon Forest</li>
+            <li class="option color5" id="Congo-Rainforest">Congo Rainforest</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="scoreboard">
+        <div class="score">
+          <p id="user-score">Your Score</p>
+          <p id="points">0</p>
+        </div>
+
+        <div class="msg">
+          <p>You got 0 right</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn">Submit</button>
+
+    <button class="refbtn" id="refresh">New Game/Restart</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
+

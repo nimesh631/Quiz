@@ -1,0 +1,89 @@
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: lightblue;
+  font-family: "Courier New", Courier, monospace;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  font-weight: 600;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/006/691/884/non_2x/blue-question-mark-background-with-text-space-quiz-symbol-vector.jpg);
+  background-size: 100% 300%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 35px 20px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.ques {
+  font-size: x-large;
+  margin: 1rem;
+}
+
+.questions {
+  width: 50%;
+  text-align: left;
+  background-color: aquamarine;
+  border: 2px solid black;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  border: 2px solid black;
+  background-color: cyan;
+  font-size: xx-large;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/008/214/810/small_2x/quiz-set-in-doodle-style-illustration-icon-question-symbol-for-print-and-design-quiz-and-exam-concept-isolated-element-on-a-white-background-collection-of-sign-for-school-and-event-vector.jpg);
+}
+
+
+
+ol {
+  cursor: pointer;
+}
+
+.option.selected {
+  text-decoration: underline;
+}
+
+.special1,
+.special2,
+.special3,
+.special4,
+.special5 {
+  color: red;
+}
+
+.btn ,.refbtn{
+  font-size: x-large;
+  background-color: lightgreen;
+  border: 2px solid black;
+  margin-top: 1rem;
+  box-shadow: 5px 5px 5px;
+}
+
+h1 img {
+  padding-left: 1rem;
+  width: 4rem;
+  height: 2.2rem;
+}
+
